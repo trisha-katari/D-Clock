@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(57, 4, 4);
+}
+
+.clock-container {
+    text-align: center;
+}
+
+.clock {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 2rem; 
+    color: #61dafb; 
+    width: 200px; /* Set width for the circular design */
+    height: 200px; /* Set height for the circular design */
+    border-radius: 50%; /* Make it round */
+    display: flex; /* Use flex to center text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 20px auto; /* Center margin for spacing */
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    border: 5px solid #61dafb; /* Optional border for styling */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow for depth */
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px; /* Space between title and clock */
+}
